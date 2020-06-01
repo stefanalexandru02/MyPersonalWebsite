@@ -1,5 +1,5 @@
-import React, { Component, useState } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 import {
   Collapse,
   Navbar,
