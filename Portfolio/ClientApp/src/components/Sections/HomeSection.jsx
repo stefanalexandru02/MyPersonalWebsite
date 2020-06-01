@@ -15,7 +15,7 @@ export default function HomeSection() {
                             typewriter.typeString('Hi, I\'m Stefan.')
                                 .pauseFor(500)
                                 .deleteChars(7)
-                                .typeString('a C# / .NET / full stack developer.')
+                                .typeString('a C# / .NET / Full Stack developer.')
                                 .pauseFor(500)
                                 .deleteChars(33)                                
                                 .start()
