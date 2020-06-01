@@ -28,7 +28,7 @@ export default function AboutSection() {
             <div className="row">
                 <div className="col-md-4" style={{marginBottom: '25px'}}>
                     <p>
-                        I am a software developer with 4+ years of experiece, with various projects and technologies. Passionate about programming, problem solving and learning new technologies.
+                        I am a software developer with 4+ years of experiece, with various projects and technologies. Passionate about programming, problem solving and learning.
                     </p>                    
                 </div>
                 <div className="col-md-8">
