@@ -6,7 +6,7 @@ export default function Section({ title, subtitle, dark, id, children }) {
         return (
             <div className={"section" + (dark ? " section-dark" : "")} data-aos='fade-up'>
                 <Container id={id}>
-                    <h1>{title}</h1>
+                    <h1 className="text-center">{title}</h1>
                     <p>{subtitle}</p>
                 </Container>
             </div>

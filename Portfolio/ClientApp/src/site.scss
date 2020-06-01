@@ -91,8 +91,8 @@ body{
 }
 
 .section-dark {
-  background: #333;
-  color: white;
+  background: #333;  
+  color: white;  
 }
 
 .section-content {
@@ -112,6 +112,15 @@ body{
   position: relative;
 }
 
+.home_section_urls
+{
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  bottom: 10%;
+}
+
 .vertical-center {
   width: 100%;
   margin: 0;
@@ -126,5 +135,47 @@ body{
   border-radius: 0;
   padding: 15px;  
   font-size: 1em;
-  border-width: 2px;
+  border-width: 2px;  
+
+  svg
+  {
+    margin-left: 5px;
+    transition: 0.25s transform ease-in-out;
+  }
 }
+
+.btn-outline-primary
+{
+  color: white!important;
+  border-color: white!important;
+}
+
+.btn-outline-primary:hover{
+  color: #3498db!important;
+  border-color: #3498db!important;
+  background-color: transparent;
+}
+
+.btn_rotate_svg:hover{
+  svg
+  {
+    transform: rotate(90deg);
+  }
+}
+
+.btn_full_transparent
+{
+  background-color: transparent!important;
+}
+
+.languagesContainer
+{
+  img{
+    height: 75px;
+    width: 75px;
+    display: block;
+    margin:auto;
+    margin-bottom: 25px;    
+  }
+}
+

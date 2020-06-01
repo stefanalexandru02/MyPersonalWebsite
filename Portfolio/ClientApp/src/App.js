@@ -6,6 +6,8 @@ import { Home } from './components/Home';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import 'hover.css';
+
 import './site.scss';
 
 export default class App extends Component {
