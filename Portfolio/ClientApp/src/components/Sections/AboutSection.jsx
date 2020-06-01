@@ -3,13 +3,13 @@ import React from "react";
 import csharp_icon from '../../images/csharp_icon.png';
 import react_icon from '../../images/react_icon.png';
 import js_icon from '../../images/js_icon.png';
-import angular_icon from '../../images/angular_icon.png';
 import dotnetcore_icon from '../../images/dotnetcore_icon.png';
 import dotnetcoreaspmvc_icon from '../../images/dotnetcoreaspmvc_icon.png';
 
 // import bootstrap_icon from '../../images/bootstrap_icon.png';
 // import flutter_icon from '../../images/flutter_icon.png';
 // import cplusplus_icon from '../../images/cplusplus_icon.png';
+// import angular_icon from '../../images/angular_icon.png';
 
 export default function AboutSection() {
 
@@ -17,8 +17,7 @@ export default function AboutSection() {
         csharp_icon,
         dotnetcore_icon, 
         dotnetcoreaspmvc_icon, 
-        react_icon, 
-        angular_icon,
+        react_icon,         
         js_icon
     ];
 
