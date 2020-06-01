@@ -60,7 +60,7 @@ body{
   width: 60px;
 }
 
-.nav-logo:hover {
+.navbar-brand:hover {
   cursor: pointer;
 }
 
@@ -103,4 +103,28 @@ body{
 
 .nav-item > .active {
   border-bottom: 1px solid #333;
+}
+
+.home_section
+{
+  padding-top: 57px;
+  height: 100vh;
+  position: relative;
+}
+
+.vertical-center {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  -ms-transform: translateY(-40%);
+  transform: translateY(-40%);
+}
+
+.btn
+{
+  border-radius: 0;
+  padding: 15px;  
+  font-size: 1em;
+  border-width: 2px;
 }

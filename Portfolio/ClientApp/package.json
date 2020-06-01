@@ -16,7 +16,8 @@
     "react-scripts": "^3.4.0",
     "react-scroll": "^1.7.16",
     "reactstrap": "^8.4.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "typewriter-effect": "^2.13.1"
   },
   "devDependencies": {
     "ajv": "^6.9.1",

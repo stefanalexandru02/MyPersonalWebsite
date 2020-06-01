@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-scroll";
+import React, { useState, useEffect } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import {
   Collapse,
   Navbar,
@@ -11,9 +11,13 @@ import {
 
 const NavMenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
-  const duration = 1500;
+  const duration = 1000;
   const offset = -275;
   const toggle = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+    scroll.scrollToTop();
+  }, []);
 
   return (
     <div>
