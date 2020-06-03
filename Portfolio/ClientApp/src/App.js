@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router';
+import { Route, Switch } from 'react-router';
 import { Layout } from './components/Layout';
 import { Home } from './components/Home';
 
@@ -10,6 +10,8 @@ import 'hover.css';
 
 import './site.scss';
 
+import { Resume } from './components/Resume';
+
 export default class App extends Component {
   static displayName = App.name;
 
@@ -19,9 +21,14 @@ export default class App extends Component {
 
   render() {
     return (
-      <Layout>
-        <Route exact path='/' component={Home} />
-      </Layout>
+      <>
+        <Switch>
+          <Route exact path='/resume' component={Resume}></Route>
+          <Layout>
+            <Route exact path='/' component={Home} />
+          </Layout>
+        </Switch>
+      </>
     );
   }
 }

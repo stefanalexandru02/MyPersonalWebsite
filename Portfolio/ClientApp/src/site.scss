@@ -1,5 +1,6 @@
 body{
   font-family: 'Muli', sans-serif;
+  color: #505050;
 }
 
 .no-outline:focus, .no-outline:active:focus, .no-outline.active:focus,
@@ -188,4 +189,53 @@ body{
 .badge
 {
   background-color: #3498db;
+}
+
+.btn:active{
+  color:white!important;
+}
+
+.outline-dark
+{
+color: #505050!important;
+border-color: #505050!important;
+}
+
+
+.resume
+{  
+  min-height: 100vh;  
+  font-size: large;
+
+  a{
+    text-decoration: none!important;
+  }
+
+  .leftBlock
+  {      
+    padding-left: 50px;
+    padding-top: 30px;
+    background-color: #f4f4f6!important;
+    
+    hr{
+      height: 2px;
+      background-color: white;
+      width: 100%;
+    }
+
+    .contactInfo
+    {
+      svg
+      {
+        margin-right: 5px;
+      }
+    }
+  }
+  
+  .rightBlock
+  {    
+    padding-right: 50px;
+    padding-top: 30px;
+    background-color: white;
+  }
 }
