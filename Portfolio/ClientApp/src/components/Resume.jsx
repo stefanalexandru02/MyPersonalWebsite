@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export class Resume extends Component {
     static displayName = Resume.name;
@@ -6,6 +7,13 @@ export class Resume extends Component {
     render() {
         return (
             <div className="container-fluid">
+                <br />
+                <Link to='/' className="btn btn-outline-primary no-outline hvr-underline-from-right outline-dark">
+                    <svg style={{ marginRight: '5px' }} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    <span>Go back</span>
+                </Link>
+                <br />
+                <br />
                 <div className="row resume">
                     <div className="col-md-4 leftBlock">
                         <h2>Virna Stefan Alexandru</h2>
@@ -61,7 +69,7 @@ export class Resume extends Component {
                         <h2>PROFESSIONAL EXPERIENCE</h2>
                         <hr />
                         <div>
-                            <h4>Lead Software Developer</h4>
+                            <h4>Founder / Lead Software Developer</h4>
                             <p>eTomorrowSchool / October 2019 - Present</p>
                             <ul>
                                 <li>Developed an A.I. based eLearning platform that helps students learn better, faster, and allows teachers to work with larger classes, easier and eTomorrowSchool - online library is a SaaS application for school libraries, that makes managing books, lendings and students easier.</li>

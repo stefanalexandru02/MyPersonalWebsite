@@ -31,12 +31,12 @@ export class Home extends Component {
           id="portfolio_section">
           <PortfolioSection />
         </Section>
-        <Section
+        {/* <Section
           activeClass="active"
           dark={false}
           id="testimonials_section">
           <TestimonialsSection />
-        </Section>
+        </Section> */}
         <Section
           activeClass="active"
           dark={true}
