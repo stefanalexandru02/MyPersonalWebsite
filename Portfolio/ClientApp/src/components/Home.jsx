@@ -20,29 +20,29 @@ export class Home extends Component {
           <HomeSection />
         </Section>
         <Section
-          activeClass="active"          
+          activeClass="active"
           dark={false}
           id="about_section">
-            <AboutSection/>
-          </Section>
+          <AboutSection />
+        </Section>
         <Section
-          activeClass="active"        
+          activeClass="active"
           dark={true}
           id="portfolio_section">
-            <PortfolioSection/>
+          <PortfolioSection />
         </Section>
         <Section
-        activeClass="active"          
-        dark={false}
-        id="testimonials_section">
-          <TestimonialsSection/>
+          activeClass="active"
+          dark={false}
+          id="testimonials_section">
+          <TestimonialsSection />
         </Section>
         <Section
-          activeClass="active"          
+          activeClass="active"
           dark={true}
           id="contact_section">
-            <ContactSection/>
-          </Section>
+          <ContactSection />
+        </Section>
       </>
     );
   }

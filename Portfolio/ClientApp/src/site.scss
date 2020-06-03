@@ -111,6 +111,25 @@ body{
   padding-top: 57px;
   height: 100vh;
   position: relative;
+
+  video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .colorOverlay
+  {
+    background-color: rgba($color: #333, $alpha: 0.75);    
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .home_section_urls

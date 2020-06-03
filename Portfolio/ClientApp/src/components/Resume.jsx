@@ -17,7 +17,7 @@ export class Resume extends Component {
                         </div>
                         <div className="contactInfo">
                             <svg className="float-left" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                            <a href="/">+40 755 384 649</a>
+                            <a href="tel:+40755384649">+40 755 384 649</a>
                         </div>
                         <hr />
                         <h3>Education</h3>
@@ -37,6 +37,7 @@ export class Resume extends Component {
                             <li>Fifth place and silver medal at C# National Olympics - 2018</li>
                             <li>Participated at C++ National Olympics - 2018</li>
                             <li>Second place at ITMarathon Hackathon - Desktop apps - 2018</li>
+                            <li>Participated at Mathematics Olympics - 2017, 2018, 2019</li>
                         </ul>
                         <p>Extracurricular Activities</p>
                         <ul>
@@ -45,7 +46,7 @@ export class Resume extends Component {
                         <hr />
                         <h3>Skills and abilities</h3>
                         <br />
-                        <p>C#, .NET, .NET Core, ASP.NET Core WebAPI and MVC, React, JavaScript, Android Java & Flutter</p>
+                        <p>C#, .NET, .NET Core, ASP.NET Core WebAPI and MVC, React, JavaScript, Android Java, Kotlin & Flutter</p>
                         <hr />
                         <h3>Portfolio</h3>
                         <p>To find out more about me and my projects, please visit my <a href="https://stefan.airproconsult.ro">portfolio here</a>.</p>
