@@ -7,13 +7,13 @@ export class Resume extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <br />
-                <Link to='/' className="btn btn-outline-primary no-outline hvr-underline-from-right outline-dark">
-                    <svg style={{ marginRight: '5px' }} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-                    <span>Go back</span>
-                </Link>
-                <br />
-                <br />
+                {/*<br />*/}
+                {/*<Link to='/' className="btn btn-outline-primary no-outline hvr-underline-from-right outline-dark">*/}
+                {/*    <svg style={{ marginRight: '5px' }} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>*/}
+                {/*    <span>Go back</span>*/}
+                {/*</Link>*/}
+                {/*<br />*/}
+                {/*<br />*/}
                 <div className="row resume">
                     <div className="col-md-4 leftBlock">
                         <h2>Virna Stefan Alexandru</h2>
@@ -30,7 +30,9 @@ export class Resume extends Component {
                         <hr />
                         <h3>Education</h3>
                         <br />
-                        <h5>GHEORGHE VRANCEANU NATIONAL COLLEGE (2017 - 2021)</h5>
+                        <h5>Alexandru Ioan Cuza University - Computer Science (2021 - present)</h5>                                                
+                        <br />
+                        <h5>Gheorghe Vranceanu National College (2017 - 2021) - Mathematics & Computer Science</h5>
                         <p>Score 9.9 out of 10</p>
                         <p>Relevant coursework</p>
                         <ul>
@@ -49,12 +51,12 @@ export class Resume extends Component {
                         </ul>
                         <p>Extracurricular Activities</p>
                         <ul>
-                            <li>Founded and taught at the school's C# programming club - 2019 - 2020</li>
+                            <li>Founded and taught at the college's C# programming club - 2019 - 2020</li>
                         </ul>
                         <hr />
                         <h3>Skills and abilities</h3>
                         <br />
-                        <p>C#, .NET, .NET Core, ASP.NET Core WebAPI and MVC, React, JavaScript, Android Java, Kotlin & Flutter</p>
+                        <p>C#, .NET, .NET Core, ASP.NET Core WebAPI and MVC, Python, Django, React, JavaScript, Android Java, Kotlin & Flutter</p>
                         <hr />
                         <h3>Portfolio</h3>
                         <p>To find out more about me and my projects, please visit my <a href="https://stefan.airproconsult.ro">portfolio here</a>.</p>
@@ -63,14 +65,34 @@ export class Resume extends Component {
                         <h2>CAREER OBJECTIVE</h2>
                         <hr />
                         <p>
-                            Hard-working high school student (9.9 / 10 score) with 4+ years of work experience and a proven knowledge of advanced technology, application development, and programming. Aiming to leverage my abilities to successfully fill the Software developer role at your company. Frequently praised as focused, adaptable and a fast learner by my peers, I can be relied upon to help your company achieve its goals.
+                            Hard-working with 5+ years of work experience and a proven knowledge of advanced technology, application development, and programming. Aiming to leverage my abilities to successfully fill the Software developer role at your company. Frequently praised as focused, adaptable and a fast learner by my peers, I can be relied upon to help your company achieve its goals.
                         </p>
                         <br />
                         <h2>PROFESSIONAL EXPERIENCE</h2>
                         <hr />
                         <div>
+                            <h4>Full-stack software engineer (Remote)</h4>
+                            <p>Ivanti / July 2021 - Present</p>
+                            <ul>
+                                <li>Fixed multiple security issues and vulnerabilities throught the application.</li>
+                                <li>Took part in the conversion process from .Net Framework to .Net Core of the ITSM application</li>
+                                <li>Used technologies: C#, ASP.NET MVC, ASP.NET Core, Angular, SQL Server, Kubernetes, Azure Cloud Services</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Full-stack Product Engineer (Remote)</h4>
+                            <p>Bistrohub Technologies S.L. / July 2020 - Present</p>
+                            <ul>
+                                <li>Developed multiple parts of the system, from menu and orders management to analytics and various other modules.</li>
+                                <li>Improved both the front-end UI and the backend architecture.</li>
+                                <li>Started the transition to a microservice architecture, improved scalability and performance</li>
+                                <li>Took part in the hiring and training process for new team members.</li>
+                                <li>Used technologies: Python, Django, React, Express, PostgreSQL, Google Cloud</li>
+                            </ul>
+                        </div>
+                        <div>
                             <h4>Founder / Lead Software Developer</h4>
-                            <p>eTomorrowSchool / October 2019 - Present</p>
+                            <p>eTomorrowSchool / October 2019 - June 2021</p>
                             <ul>
                                 <li>Developed an A.I. based eLearning platform that helps students learn better, faster, and allows teachers to work with larger classes, easier and eTomorrowSchool - online library is a SaaS application for school libraries, that makes managing books, lendings and students easier.</li>
                                 <li>Designing system and network architecture, verifying its stability, interoperability, portability, security, and scalability using microservices.</li>
@@ -81,11 +103,11 @@ export class Resume extends Component {
                             <h4>Software Developer</h4>
                             <p>Aerostar S.A. | Bacau, Bacau / September 2018 - Present</p>
                             <ul>
-                                <li>Developed a fully working distributed visitors management system that registers visitors securely, handles all the paperwork, generates automatically reports, prints visitor badges, and notifies the company's assigned personnell when the visitors have arrived.</li>
+                                <li>Developed a fully working distributed visitors management system that registers visitors securely, handles all the paperwork, generates automatically reports, prints visitor badges, and notifies the company's assigned personnell when the visitors have arrived.</li>                                
                                 <li>Communicate with staff and clients to understand specific system requirements.</li>
                                 <li>Designing system architecture, verifying its stability, interoperability, portability, security, and scalability.</li>
                                 <li>Document design specifications, installation instructions, and other system-related information.</li>
-                                <li>Used technologies: C#, WPF and ASP.NET Core, Java, JavaScript, SqLite.</li>
+                                <li>Used technologies: C#, WPF and ASP.NET Core, Java, JavaScript, SqLite, Python</li>
                             </ul>
                         </div>
                         <div>
@@ -95,12 +117,12 @@ export class Resume extends Component {
                                 <li>Developing RPA software that integrates into the company's workflow using mainly C#.</li>
                                 <li>Communicate with clients to understand specific system requirements.</li>
                                 <li>Designing system architecture, verifying its stability, interoperability, portability, security, and scalability.</li>
-                                <li>Used technologies: C#, WPF, SignalR, ASP.NET Core, React, PostgreSQL.</li>
+                                <li>Used technologies: C#, WPF, SignalR, ASP.NET Core, React, PostgreSQL, Python, Sklearn</li>
                             </ul>
                         </div>
                         <div>
                             <h4>Full stack developer</h4>
-                            <p>Gheorghe Vranceanu National College | Bacau, Bacau / May 2018 - Present</p>
+                            <p>Gheorghe Vranceanu National College | Bacau, Bacau / May 2018 - June 2021</p>
                             <ul>
                                 <li>Created a CMS from skratch, developed using ASP.NET Core MVC for designing, building, and maintaining the web site. </li>
                                 <li>Write, design, or edit web page content, or direct others producing content.</li>
