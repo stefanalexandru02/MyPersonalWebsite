@@ -54,6 +54,7 @@ export class Resume extends Component {
                             <li>Founded and taught at the college's C# programming club - 2019 - 2020</li>
                         </ul>
                         <hr />
+                        <br /><br />
                         <h3>Skills and abilities</h3>
                         <br />
                         <p>C#, .NET, .NET Core, ASP.NET Core WebAPI and MVC, Python, Django, React, JavaScript, Android Java, Kotlin & Flutter</p>
@@ -65,7 +66,7 @@ export class Resume extends Component {
                         <h2>CAREER OBJECTIVE</h2>
                         <hr />
                         <p>
-                            Hard-working with 5+ years of work experience and a proven knowledge of advanced technology, application development, and programming. Aiming to leverage my abilities to successfully fill the Software developer role at your company. Frequently praised as focused, adaptable and a fast learner by my peers, I can be relied upon to help your company achieve its goals.
+                            Hard-working developer with 6 years of work experience and a proven knowledge of advanced technology, application development, and programming. Aiming to leverage my abilities to successfully fill the Software developer role at your company. Frequently praised as focused, adaptable and a fast learner by my peers, I can be relied upon to help your company achieve its goals.
                         </p>
                         <br />
                         <h2>PROFESSIONAL EXPERIENCE</h2>
@@ -81,22 +82,23 @@ export class Resume extends Component {
                         </div>
                         <div>
                             <h4>Full-stack Product Engineer (Remote)</h4>
-                            <p>Bistrohub Technologies S.L. / July 2020 - Present</p>
+                            <p>Bistrohub Technologies S.L. / July 2020 - July 2021</p>
                             <ul>
                                 <li>Developed multiple parts of the system, from menu and orders management to analytics and various other modules.</li>
                                 <li>Improved both the front-end UI and the backend architecture.</li>
                                 <li>Started the transition to a microservice architecture, improved scalability and performance</li>
                                 <li>Took part in the hiring and training process for new team members.</li>
-                                <li>Used technologies: Python, Django, React, Express, PostgreSQL, Google Cloud</li>
+                                <li>Used technologies: Python, Django, React, Express, PostgreSQL, Docker, Google Cloud</li>
                             </ul>
                         </div>
+                        <br/>
                         <div>
                             <h4>Founder / Lead Software Developer</h4>
                             <p>eTomorrowSchool / October 2019 - June 2021</p>
                             <ul>
                                 <li>Developed an A.I. based eLearning platform that helps students learn better, faster, and allows teachers to work with larger classes, easier and eTomorrowSchool - online library is a SaaS application for school libraries, that makes managing books, lendings and students easier.</li>
                                 <li>Designing system and network architecture, verifying its stability, interoperability, portability, security, and scalability using microservices.</li>
-                                <li>Used technologies: C#, ASP.NET Core API, React, SQL Server.</li>
+                                <li>Used technologies: C#, ASP.NET Core API, React, SQL Server, Python, Tensorflow</li>
                             </ul>
                         </div>
                         <div>
@@ -110,7 +112,8 @@ export class Resume extends Component {
                                 <li>Used technologies: C#, WPF and ASP.NET Core, Java, JavaScript, SqLite, Python</li>
                             </ul>
                         </div>
-                        <div>
+                        <div style={{marginTop: "20px"}}>
+                            <br /><br /><br />
                             <h4>Software Developer</h4>
                             <p>Airpro Consult | Bacau, Bacau / August 2017 - Present</p>
                             <ul>
